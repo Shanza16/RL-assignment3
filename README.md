@@ -4,12 +4,20 @@ This project implements a simple GridWorld environment to compare Sarsa and Q-le
 Both algorithms use an epsilon-greedy policy for exploration and exploitation balance.
 
 ## Contents
-- 'Custom GridWorld environment
+- Custom GridWorld environment
+- SARSA (on-policy) algorithm
+- Q-learning (off-policy) algorithm
+- Visualization of trajectories
+- Episode reward plots
 
-- 'SARSA (on-policy) algorithm
+  ##  Requirements
+  - numpy
+  - matplotlib
+ 
+   ## How to Run
+ - Upload the notebook or Python script to Google Colab.
 
-- 'Q-learning (off-policy) algorithm
+- Install any missing packages with !pip install numpy matplotlib if needed.
 
-- 'Visualization of trajectories
-
-- 'Episode reward plots
+- Run the cells to train the agents and visualize results.
+  
